@@ -8,6 +8,7 @@ Column buildSelectSection(BuildContext context) {
       Text('Select Cinema',
           style: GoogleFonts.niramit(
               color: const Color.fromRGBO(255, 255, 255, 0.65))),
+      
       Padding(
         padding: const EdgeInsets.only(right: 30),
         child: Row(
@@ -16,10 +17,10 @@ Column buildSelectSection(BuildContext context) {
             Text('Cinema XXI Ambarukmo Plaza',
                 style: GoogleFonts.niramit(
                     fontWeight: FontWeight.bold, color: Colors.white)),
-            const Icon(
-              Icons.arrow_downward,
-              color: Color.fromRGBO(255, 255, 255, 0.6),
-            ),
+            const Image(
+              height: 10,
+              width: 10,
+              image: AssetImage('icons/down-arrow.png'))
           ],
         ),
       ),

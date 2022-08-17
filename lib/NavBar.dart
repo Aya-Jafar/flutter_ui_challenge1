@@ -10,6 +10,5 @@ Container buildNavBar(BuildContext context) {
       child: Text('Take a seat',
           style: GoogleFonts.niramit(
               fontSize: 25,
-              // fontWeight: FontWeight.bold,
               color: Color.fromRGBO(255, 255, 255, 1))));
 }

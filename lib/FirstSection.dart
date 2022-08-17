@@ -12,13 +12,12 @@ Stack buildFirstSection(BuildContext context) {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: const [
-            Icon(
-              Icons.arrow_back_rounded,
-              color: Colors.white,
-              size: 30,
+            Image(
+              height: 33,
+              width: 30,
+              image: AssetImage('icons/back-arrow.png'),
             ),
-            Icon(Icons.favorite_outline_outlined,
-                color: Colors.white, size: 30),
+            Image(height: 33, width: 30, image: AssetImage('icons/fav.png')),
           ],
         ),
       ),
@@ -38,11 +37,13 @@ Stack buildFirstSection(BuildContext context) {
                     color: Colors.white),
               ),
               Container(
-                margin: const EdgeInsets.only(bottom: 10.0, top: 10.0),
+                margin: const EdgeInsets.only(bottom: 15.0, top: 10.0),
                 child: Row(
                   children: [
-                    const Icon(Icons.star,
-                        color: const Color.fromRGBO(249, 150, 1, 1)),
+                    const Image(
+                        height: 20,
+                        width: 20,
+                        image: AssetImage('icons/star.png')),
                     const SizedBox(
                       width: 5,
                     ),
@@ -56,7 +57,7 @@ Stack buildFirstSection(BuildContext context) {
                 ),
               ),
               Container(
-                margin: const EdgeInsets.only(bottom: 4.0),
+                margin: const EdgeInsets.only(bottom: 5.0),
                 child: Row(
                   children: [
                     makePurpleContainer(context, 'Horror'),
@@ -81,8 +82,15 @@ Stack buildFirstSection(BuildContext context) {
           decoration: BoxDecoration(
               color: const Color.fromRGBO(37, 25, 119, 1),
               borderRadius: BorderRadius.circular(35)),
-          child: const Icon(Icons.arrow_right_outlined,
-              color: Colors.white, size: 73),
+          child: Container(
+            alignment: Alignment.center,
+            child: const Image(
+              height: 25,
+              image: AssetImage("icons/video-player.png"),
+            ),
+          ),
+          // const Icon(Icons.arrow_right_outlined,
+          //     color: Colors.white, size: 73),
         ),
       )
     ],

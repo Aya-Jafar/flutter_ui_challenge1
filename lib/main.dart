@@ -42,7 +42,7 @@ class MyHomePage extends StatelessWidget {
                       buildSecondSection(context),
                       buildTabController(context),
                       buildScheduleContainers(context),
-                      const SizedBox(height: 7),
+                      // const SizedBox(height: 10),
                       buildSelectSection(context),
                     ],
                   )),
