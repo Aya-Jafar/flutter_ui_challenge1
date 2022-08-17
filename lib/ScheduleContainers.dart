@@ -10,22 +10,26 @@ SingleChildScrollView buildScheduleContainers(BuildContext context) {
             context: context,
             date: '21 Nov',
             day: 'WED',
-            color: const Color.fromRGBO(37, 25, 119, 1)),
+            color: const Color.fromRGBO(37, 25, 119, 1)
+          ),
         makeDateContainer(
             context: context,
             date: '21 Nov',
             day: 'THU',
-            color: const Color.fromRGBO(56, 53, 75, 1)),
+            color: const Color.fromRGBO(56, 53, 75, 1)
+          ),
         makeDateContainer(
             context: context,
             date: '22 Nov',
             day: 'FRI',
             color: const Color.fromRGBO(56, 53, 75, 1)),
+
         makeDateContainer(
             context: context,
             date: '23 Nov',
             day: 'SAT',
             color: const Color.fromRGBO(56, 53, 75, 1)),
+
         makeDateContainer(
             context: context,
             date: '24 Nov',
@@ -36,6 +40,7 @@ SingleChildScrollView buildScheduleContainers(BuildContext context) {
             date: '25 Nov',
             day: 'MON',
             color: const Color.fromRGBO(40, 38, 51, 1)),
+
         makeDateContainer(
             context: context,
             date: '26 Nov',
@@ -67,3 +72,5 @@ Container makeDateContainer(
                 fontWeight: FontWeight.bold)),
       ]));
 }
+
+

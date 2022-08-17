@@ -39,8 +39,9 @@ Stack buildFirstSection(BuildContext context) {
               Container(
                 margin: const EdgeInsets.only(bottom: 15.0, top: 10.0),
                 child: Row(
+                   
                   children: [
-                    const Image(
+                   const Image(
                         height: 20,
                         width: 20,
                         image: AssetImage('icons/star.png')),
@@ -57,7 +58,9 @@ Stack buildFirstSection(BuildContext context) {
                 ),
               ),
               Container(
+
                 margin: const EdgeInsets.only(bottom: 5.0),
+
                 child: Row(
                   children: [
                     makePurpleContainer(context, 'Horror'),
@@ -91,6 +94,7 @@ Stack buildFirstSection(BuildContext context) {
           ),
           // const Icon(Icons.arrow_right_outlined,
           //     color: Colors.white, size: 73),
+
         ),
       )
     ],

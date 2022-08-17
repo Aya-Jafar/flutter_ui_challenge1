@@ -36,8 +36,11 @@ dependencies:
   cupertino_icons: ^1.0.2
   google_fonts: ^3.0.1
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9316b9e059df8a41ae47841080c228c374c8f404
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -64,11 +67,14 @@ flutter:
   assets:
      - assets/image-cont.png
      - assets/figma-image.png
+<<<<<<< HEAD
      - icons/video-player.png
      - icons/back-arrow.png
      - icons/fav.png
      - icons/star.png
      - icons/down-arrow.png
+=======
+>>>>>>> 9316b9e059df8a41ae47841080c228c374c8f404
     #  - fonts/Niramit-Bold.ttf
   #   - images/a_dot_ham.jpeg
 
